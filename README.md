@@ -1,2 +1,16 @@
-# Parallel-Processing-Call-Data
-To run this code you must first integrate your IDE to import Hadoop libraries so that we can replicate a multi-node processing cluster. From there you have to manually configure the input/output files in the IDE so that the java code knows what data to read in and the destination to submit the output file. For an indepth review of how to code works please see the CodeExplanation file. In summary this code maps a phone number to all of its call durations with other numbers then it reduces these durations to a single total call time and outputs the number and its total duration. The testData.txt file is used to fun the program and the results.txt gives an example of what the output file should look like.  
+# Parallel Processing Call Data
+
+This is a project that was created as a final assignment for a Data Intensive Computing course in May 2019. The goal of this project was to take CDR call data and find out how many minutes in total each phone number spent calling others. To do this I used a java implemented version of Hadoop loaded in the IntelliJ IDE to map/reduce the call time data. CodeExplanation.pdf gives a more detailed explanation of how the code achieves this goal. Testdata.txt gives an example of what format the program expects the input to come in and results.txt gives an example of what the results will look like.
+
+### Getting Started 
+
+To run this code you must integrate your IDE to import Hadoop libraries so that it can replicate a multi-node processing cluster. This will include manually configuring the input/output files in the IDE settings so that the java code knows what data to read in and the destination to submit the output file. Once this is done download and move the CDRsort.java file into the IDE and run the file. 
+
+### Built With 
+
+* IntelliJ - IDE
+* Hadoop -  framework for distributed processing of large data sets using clusters 
+
+### Authors 
+
+* Kyle Dennison - KyleDennison
